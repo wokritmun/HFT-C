@@ -69,31 +69,97 @@ include CMakeFiles/HFTSystem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HFTSystem.dir/flags.make
 
-CMakeFiles/HFTSystem.dir/main.cpp.o: CMakeFiles/HFTSystem.dir/flags.make
-CMakeFiles/HFTSystem.dir/main.cpp.o: /Users/fmovel/Documents/GitHub/HFT-C/main.cpp
-CMakeFiles/HFTSystem.dir/main.cpp.o: CMakeFiles/HFTSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HFTSystem.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HFTSystem.dir/main.cpp.o -MF CMakeFiles/HFTSystem.dir/main.cpp.o.d -o CMakeFiles/HFTSystem.dir/main.cpp.o -c /Users/fmovel/Documents/GitHub/HFT-C/main.cpp
+CMakeFiles/HFTSystem.dir/src/main.cpp.o: CMakeFiles/HFTSystem.dir/flags.make
+CMakeFiles/HFTSystem.dir/src/main.cpp.o: /Users/fmovel/Documents/GitHub/HFT-C/src/main.cpp
+CMakeFiles/HFTSystem.dir/src/main.cpp.o: CMakeFiles/HFTSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HFTSystem.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HFTSystem.dir/src/main.cpp.o -MF CMakeFiles/HFTSystem.dir/src/main.cpp.o.d -o CMakeFiles/HFTSystem.dir/src/main.cpp.o -c /Users/fmovel/Documents/GitHub/HFT-C/src/main.cpp
 
-CMakeFiles/HFTSystem.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HFTSystem.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fmovel/Documents/GitHub/HFT-C/main.cpp > CMakeFiles/HFTSystem.dir/main.cpp.i
+CMakeFiles/HFTSystem.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HFTSystem.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fmovel/Documents/GitHub/HFT-C/src/main.cpp > CMakeFiles/HFTSystem.dir/src/main.cpp.i
 
-CMakeFiles/HFTSystem.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HFTSystem.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fmovel/Documents/GitHub/HFT-C/main.cpp -o CMakeFiles/HFTSystem.dir/main.cpp.s
+CMakeFiles/HFTSystem.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HFTSystem.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fmovel/Documents/GitHub/HFT-C/src/main.cpp -o CMakeFiles/HFTSystem.dir/src/main.cpp.s
+
+CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o: CMakeFiles/HFTSystem.dir/flags.make
+CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o: /Users/fmovel/Documents/GitHub/HFT-C/src/MovingAverageStrategy.cpp
+CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o: CMakeFiles/HFTSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o -MF CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o.d -o CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o -c /Users/fmovel/Documents/GitHub/HFT-C/src/MovingAverageStrategy.cpp
+
+CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fmovel/Documents/GitHub/HFT-C/src/MovingAverageStrategy.cpp > CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.i
+
+CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fmovel/Documents/GitHub/HFT-C/src/MovingAverageStrategy.cpp -o CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.s
+
+CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o: CMakeFiles/HFTSystem.dir/flags.make
+CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o: /Users/fmovel/Documents/GitHub/HFT-C/src/Portfolio.cpp
+CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o: CMakeFiles/HFTSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o -MF CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o.d -o CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o -c /Users/fmovel/Documents/GitHub/HFT-C/src/Portfolio.cpp
+
+CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fmovel/Documents/GitHub/HFT-C/src/Portfolio.cpp > CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.i
+
+CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fmovel/Documents/GitHub/HFT-C/src/Portfolio.cpp -o CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.s
+
+CMakeFiles/HFTSystem.dir/src/StockData.cpp.o: CMakeFiles/HFTSystem.dir/flags.make
+CMakeFiles/HFTSystem.dir/src/StockData.cpp.o: /Users/fmovel/Documents/GitHub/HFT-C/src/StockData.cpp
+CMakeFiles/HFTSystem.dir/src/StockData.cpp.o: CMakeFiles/HFTSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HFTSystem.dir/src/StockData.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HFTSystem.dir/src/StockData.cpp.o -MF CMakeFiles/HFTSystem.dir/src/StockData.cpp.o.d -o CMakeFiles/HFTSystem.dir/src/StockData.cpp.o -c /Users/fmovel/Documents/GitHub/HFT-C/src/StockData.cpp
+
+CMakeFiles/HFTSystem.dir/src/StockData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HFTSystem.dir/src/StockData.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fmovel/Documents/GitHub/HFT-C/src/StockData.cpp > CMakeFiles/HFTSystem.dir/src/StockData.cpp.i
+
+CMakeFiles/HFTSystem.dir/src/StockData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HFTSystem.dir/src/StockData.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fmovel/Documents/GitHub/HFT-C/src/StockData.cpp -o CMakeFiles/HFTSystem.dir/src/StockData.cpp.s
+
+CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o: CMakeFiles/HFTSystem.dir/flags.make
+CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o: /Users/fmovel/Documents/GitHub/HFT-C/src/Backtester.cpp
+CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o: CMakeFiles/HFTSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o -MF CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o.d -o CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o -c /Users/fmovel/Documents/GitHub/HFT-C/src/Backtester.cpp
+
+CMakeFiles/HFTSystem.dir/src/Backtester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HFTSystem.dir/src/Backtester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fmovel/Documents/GitHub/HFT-C/src/Backtester.cpp > CMakeFiles/HFTSystem.dir/src/Backtester.cpp.i
+
+CMakeFiles/HFTSystem.dir/src/Backtester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HFTSystem.dir/src/Backtester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fmovel/Documents/GitHub/HFT-C/src/Backtester.cpp -o CMakeFiles/HFTSystem.dir/src/Backtester.cpp.s
 
 # Object files for target HFTSystem
 HFTSystem_OBJECTS = \
-"CMakeFiles/HFTSystem.dir/main.cpp.o"
+"CMakeFiles/HFTSystem.dir/src/main.cpp.o" \
+"CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o" \
+"CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o" \
+"CMakeFiles/HFTSystem.dir/src/StockData.cpp.o" \
+"CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o"
 
 # External object files for target HFTSystem
 HFTSystem_EXTERNAL_OBJECTS =
 
-HFTSystem: CMakeFiles/HFTSystem.dir/main.cpp.o
+HFTSystem: CMakeFiles/HFTSystem.dir/src/main.cpp.o
+HFTSystem: CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o
+HFTSystem: CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o
+HFTSystem: CMakeFiles/HFTSystem.dir/src/StockData.cpp.o
+HFTSystem: CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o
 HFTSystem: CMakeFiles/HFTSystem.dir/build.make
+HFTSystem: /usr/local/Cellar/ta-lib/0.4.0/lib/libta_lib.0.dylib
+HFTSystem: /usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/lib/libpython3.11.dylib
 HFTSystem: CMakeFiles/HFTSystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HFTSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable HFTSystem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HFTSystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

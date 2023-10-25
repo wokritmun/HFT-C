@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/fmovel/Documents/GitHub/HFT-C/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/Users/fmovel/Documents/GitHub/HFT-C/cmake-3.4.1-Darwin-x86_64/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.27.7/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -129,29 +129,125 @@ HFTSystem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/build
 .PHONY : HFTSystem/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/Backtester.o: src/Backtester.cpp.o
+.PHONY : src/Backtester.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Backtester.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o
+.PHONY : src/Backtester.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Backtester.i: src/Backtester.cpp.i
+.PHONY : src/Backtester.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Backtester.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/Backtester.cpp.i
+.PHONY : src/Backtester.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Backtester.s: src/Backtester.cpp.s
+.PHONY : src/Backtester.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Backtester.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/Backtester.cpp.s
+.PHONY : src/Backtester.cpp.s
+
+src/MovingAverageStrategy.o: src/MovingAverageStrategy.cpp.o
+.PHONY : src/MovingAverageStrategy.o
+
+# target to build an object file
+src/MovingAverageStrategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o
+.PHONY : src/MovingAverageStrategy.cpp.o
+
+src/MovingAverageStrategy.i: src/MovingAverageStrategy.cpp.i
+.PHONY : src/MovingAverageStrategy.i
+
+# target to preprocess a source file
+src/MovingAverageStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.i
+.PHONY : src/MovingAverageStrategy.cpp.i
+
+src/MovingAverageStrategy.s: src/MovingAverageStrategy.cpp.s
+.PHONY : src/MovingAverageStrategy.s
+
+# target to generate assembly for a file
+src/MovingAverageStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.s
+.PHONY : src/MovingAverageStrategy.cpp.s
+
+src/Portfolio.o: src/Portfolio.cpp.o
+.PHONY : src/Portfolio.o
+
+# target to build an object file
+src/Portfolio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o
+.PHONY : src/Portfolio.cpp.o
+
+src/Portfolio.i: src/Portfolio.cpp.i
+.PHONY : src/Portfolio.i
+
+# target to preprocess a source file
+src/Portfolio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.i
+.PHONY : src/Portfolio.cpp.i
+
+src/Portfolio.s: src/Portfolio.cpp.s
+.PHONY : src/Portfolio.s
+
+# target to generate assembly for a file
+src/Portfolio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.s
+.PHONY : src/Portfolio.cpp.s
+
+src/StockData.o: src/StockData.cpp.o
+.PHONY : src/StockData.o
+
+# target to build an object file
+src/StockData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/StockData.cpp.o
+.PHONY : src/StockData.cpp.o
+
+src/StockData.i: src/StockData.cpp.i
+.PHONY : src/StockData.i
+
+# target to preprocess a source file
+src/StockData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/StockData.cpp.i
+.PHONY : src/StockData.cpp.i
+
+src/StockData.s: src/StockData.cpp.s
+.PHONY : src/StockData.s
+
+# target to generate assembly for a file
+src/StockData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/StockData.cpp.s
+.PHONY : src/StockData.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HFTSystem"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Backtester.o"
+	@echo "... src/Backtester.i"
+	@echo "... src/Backtester.s"
+	@echo "... src/MovingAverageStrategy.o"
+	@echo "... src/MovingAverageStrategy.i"
+	@echo "... src/MovingAverageStrategy.s"
+	@echo "... src/Portfolio.o"
+	@echo "... src/Portfolio.i"
+	@echo "... src/Portfolio.s"
+	@echo "... src/StockData.o"
+	@echo "... src/StockData.i"
+	@echo "... src/StockData.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -1,6 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HFTSystem.dir/main.cpp.o"
-  "CMakeFiles/HFTSystem.dir/main.cpp.o.d"
+  "CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o"
+  "CMakeFiles/HFTSystem.dir/src/Backtester.cpp.o.d"
+  "CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o"
+  "CMakeFiles/HFTSystem.dir/src/MovingAverageStrategy.cpp.o.d"
+  "CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o"
+  "CMakeFiles/HFTSystem.dir/src/Portfolio.cpp.o.d"
+  "CMakeFiles/HFTSystem.dir/src/StockData.cpp.o"
+  "CMakeFiles/HFTSystem.dir/src/StockData.cpp.o.d"
+  "CMakeFiles/HFTSystem.dir/src/main.cpp.o"
+  "CMakeFiles/HFTSystem.dir/src/main.cpp.o.d"
   "HFTSystem"
   "HFTSystem.pdb"
 )

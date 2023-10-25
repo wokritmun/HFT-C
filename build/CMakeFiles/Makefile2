@@ -81,12 +81,12 @@ clean: CMakeFiles/HFTSystem.dir/clean
 CMakeFiles/HFTSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HFTSystem.dir/build.make CMakeFiles/HFTSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=1,2 "Built target HFTSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target HFTSystem"
 .PHONY : CMakeFiles/HFTSystem.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HFTSystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HFTSystem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/fmovel/Documents/GitHub/HFT-C/build/CMakeFiles 0
 .PHONY : CMakeFiles/HFTSystem.dir/rule

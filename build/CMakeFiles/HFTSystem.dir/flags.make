@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/ta-lib/0.4.0/include
+CXX_INCLUDES = -I/usr/local/Cellar/ta-lib/0.4.0/include -I/Users/fmovel/Documents/GitHub/HFT-C/src -isystem /usr/local/lib/python3.11/site-packages/pybind11/include -isystem /usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11
 
 CXX_FLAGS = -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
 
